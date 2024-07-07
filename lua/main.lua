@@ -15,6 +15,6 @@ end
 if type(arg[1]) == "string" then
     io.write(tostring(willy(arg[1])))
 else
-    io.write("Mag Willy das? ")
+    io.write("Willy mag das: ")
     io.write(tostring(willy("\n" .. io.read())))
 end
